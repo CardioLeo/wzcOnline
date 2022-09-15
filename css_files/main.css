@@ -48,6 +48,7 @@ pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; f
 }
 
 img {
-	border-radiius: 24px;
-	width: 50%;
+	border-radius: 25px;
+	max-width: 25%;
+	height: auto;
 }
