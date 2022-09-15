@@ -12,13 +12,16 @@ To Do:
 3. make alias to take you to new folder /
 4. make new git repo for your website, wzcOnline /
 5. add new folders, html and css and javascript to wzcOnline /
-6. make files link to one another
-7. make portfolio items in code portfolio collapsible /
-8. coding steps requirements:
+6. make portfolio items in code portfolio collapsible /
+
+
+7. coding steps requirements:
 -at least three pages /
 -links to navigate between all pages present on each page
 -a list / / / / / (lots of lists are incorporated)
--3 images
+-3 images (in progress)
 -2 different size headers /
 -a table
 -a form
+
+8. make actually accessible as a github website ()
