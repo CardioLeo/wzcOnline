@@ -4,6 +4,8 @@
  * Description: "A place for the cascading style sheets (css) for my wzcOnline website index page."
  * */
 
+/* font changes */
+
 h1 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
 
 h2 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 550;}
@@ -16,9 +18,11 @@ blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 
 
 pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 
-/*above are the first css changes I ever made to a personal website*/
-
-/*below are the changes I made for Promineo Tech Week 7 Coding Assignment*/
+/*above are the first css changes I ever made to a personal website
+ *
+ *
+ * 
+ *below are the changes I made for Promineo Tech Week 7 Coding Assignment*/
 
 .collapsible {
   background-color: #eee;
@@ -43,3 +47,7 @@ pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; f
   background-color: #f1f1f1;
 }
 
+img {
+	border-radiius: 24px;
+	width: 50%;
+}
