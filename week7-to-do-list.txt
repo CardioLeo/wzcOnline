@@ -17,9 +17,9 @@ To Do:
 
 7. coding steps requirements:
 -at least three pages /
--links to navigate between all pages present on each page
+-links to navigate between all pages present on each page //////
 -a list / / / / / (lots of lists are incorporated)
--3 images (in progress)
+-3 images (in progress) //////
 -2 different size headers /
 -a table
 -a form
