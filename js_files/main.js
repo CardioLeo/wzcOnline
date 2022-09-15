@@ -4,7 +4,7 @@
 // Description: A place for JavaScript code for my website updates during Promineo Tech Front End Bootcamp Week 7;
 //
 
-var coll = document.getElementByClassName("collapsible");
+var coll = document.getElementsByClassName("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {
