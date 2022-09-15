@@ -1,0 +1,16 @@
+# Author: William Z Chadwick
+# Date Created: 09/14/2022
+# Date Modified: 09/14/2022
+# Description: A place for my to-do list for my website specifically as I am updating it for the Promineo Tech Front End Bootcamp Week 7 Coding Assignment.
+
+---***---
+
+To Do:
+
+1. rename certsProject.html /
+2. copy files to new folder (wzcOnline) /
+3. make alias to take you to new folder /
+4. make new git repo for your website, wzcOnline
+5. make files link to one another
+6. make portfolio items in code portfolio collapsible
+7. other changes?
