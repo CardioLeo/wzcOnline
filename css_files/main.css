@@ -47,8 +47,20 @@ pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; f
   background-color: #f1f1f1;
 }
 
+/*
 img {
-	border-radius: 25px;
-	max-width: 25%;
+	border-radius: 50px;
+	max-height: 25%;
+	width: auto;
+}
+nope, going to leave it commented out for now; maybe another time
+although I did change border-radius below to 50px from 25px, and max-width from 25% to 30%, after some experimenting.
+ */
+
+
+img {
+	border-radius: 50px;
+	max-width: 30%;
 	height: auto;
 }
+
