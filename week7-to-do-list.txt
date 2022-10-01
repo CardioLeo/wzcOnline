@@ -21,7 +21,7 @@ To Do:
 -a list / / / / / (lots of lists are incorporated)
 -3 images (in progress) //////
 -2 different size headers /
--a table
--a form
+-a table /
+-a form / 
 
-8. make actually accessible as a github website ()
+8. make actually accessible as a github website (/)
