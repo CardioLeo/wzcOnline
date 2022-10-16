@@ -82,7 +82,7 @@ background-color: white;
 }
 
 tr:nth-child(3n) {
-background-color: gray;
+background-color: #DCDCDC; /* color = HTML Gainsboro */
 }
 
 table {
@@ -102,7 +102,7 @@ label {
 }
 
 input[type=text], select {
-  width: 100%;
+  width: 37%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
