@@ -73,7 +73,7 @@ img {
 	background: white;
 }
 
-nav, details, summary {
+nav {
 	padding: 4px;
 	width: 17%;
 	background-color: sepia(1);
@@ -82,6 +82,8 @@ nav, details, summary {
 	cursor: pointer;
 	box-shadow: 2px 2px 4px;
 }
+
+/*make details and summary into a class selector*/
 
 li:hover {
 background-color: white;
