@@ -73,8 +73,14 @@ img {
 	background: white;
 }
 
-nav {
-
+nav, details, summary {
+	padding: 4px;
+	width: 17%;
+	background-color: sepia(1);
+	border: 2px;
+	border-radius: 15px;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px;
 }
 
 li:hover {
@@ -133,8 +139,6 @@ input[type=submit]:hover {
 
 header (  )
 br (  )
-details (  )
-summary (  )
 meter (  )
 em (  )
 
