@@ -74,13 +74,13 @@ img {
 }
 
 nav {
-	padding: 4px;
-	width: 17%;
+	padding: 8px;
+	width: 20%;
 	background-color: sepia(1);
-	border: 2px;
+	border: 10px;
 	border-radius: 15px;
 	cursor: pointer;
-	box-shadow: 2px 2px 4px;
+	box-shadow: 0.5px 0.5px 1px;
 }
 
 /*make details and summary into a class selector*/
