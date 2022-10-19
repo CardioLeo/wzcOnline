@@ -75,14 +75,12 @@ img {
 
 nav {
 	padding: 15px;
-	width: 40px;
+	width: 200px;
 	background-color: sepia(1);
-	border: 15px;
+	border: 1px dashed;
 	border-radius: 15px;
 	cursor: pointer;
 }
-
-/*make details and summary into a class selector*/
 
 li:hover {
 background-color: white;
@@ -92,19 +90,7 @@ tr:nth-child(3n) {
 background-color: #DCDCDC; /* color = HTML Gainsboro */
 }
 
-table {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
-}
-th {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
-}
-td {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
-}
-form {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
-}
-label {
+table, th, td, form, label, summary, details {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
 }
 
