@@ -67,6 +67,8 @@ img {
  *
  *
  * 
+ * sepia example: background-color: #fcf5ee;
+ *
  *below are the css changes I made for Promineo Tech Week 8 Coding Assignment, 10/15/2022 */
 
 :root {
@@ -76,10 +78,10 @@ img {
 nav {
 	padding: 15px;
 	width: 200px;
-	background-color: sepia(1);
 	border: 1px dashed;
 	border-radius: 15px;
 	cursor: pointer;
+	margin: 10px 10px 10px 10px;
 }
 
 li:hover {
