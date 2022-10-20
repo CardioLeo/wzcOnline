@@ -92,6 +92,10 @@ nav {
 	margin: 10px 10px 10px 10px;
 }
 
+#frink {
+	background-color: red;
+}
+
 li:hover {
 background-color: white;
 }
@@ -137,7 +141,3 @@ input[type=submit]:hover {
  * I need to add button attributes and details/summary/collapsible attributes to the nav section
  * */
 
-
-header (  )
-br (  )
-meter (  )
