@@ -68,6 +68,14 @@ img {
  *
  * 
  * sepia example: background-color: #fcf5ee;
+ * conic-gradient();
+ * font-size: 70px;
+ * font-weight: 600;
+ * background-image: linear-gradient(to left, #553c9a, #b393d3);
+ * color: transparent;
+ * background-clip: text;
+ * -webkit-background-clip: text;
+ *
  *
  *below are the css changes I made for Promineo Tech Week 8 Coding Assignment, 10/15/2022 */
 
@@ -92,7 +100,7 @@ tr:nth-child(3n) {
 background-color: #DCDCDC; /* color = HTML Gainsboro */
 }
 
-table, th, td, form, label, summary, details {
+button, table, th, td, form, label, summary, details {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
 }
 
@@ -129,5 +137,3 @@ input[type=submit]:hover {
 header (  )
 br (  )
 meter (  )
-em (  )
-
