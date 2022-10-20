@@ -81,6 +81,9 @@ img {
 
 :root {
 	background: white;
+	position:relative
+	left: 80px;
+	top: 10px;
 }
 
 nav {
