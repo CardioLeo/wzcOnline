@@ -76,14 +76,16 @@ img {
  * background-clip: text;
  * -webkit-background-clip: text;
  *
+ * * {
+        position: relative;
+        left: 80px;
+        top: 10px;
+}
  *
  *below are the css changes I made for Promineo Tech Week 8 Coding Assignment, 10/15/2022 */
 
 :root {
 	background: white;
-	position:relative
-	left: 80px;
-	top: 10px;
 }
 
 nav {
@@ -142,5 +144,5 @@ input[type=submit]:hover {
 
 /* 
  * I need to add button attributes and details/summary/collapsible attributes to the nav section
- * */
+ */
 
