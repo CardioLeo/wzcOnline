@@ -100,8 +100,12 @@ tr:nth-child(3n) {
 background-color: #DCDCDC; /* color = HTML Gainsboro */
 }
 
-button, table, th, td, form, label, summary, details {
+button, table, th, td, form, label, summary, details, header {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+}
+
+progress {
+	width: 20%;
 }
 
 input[type=text], select {
