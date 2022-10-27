@@ -12,7 +12,18 @@ h2 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; fo
 
 h4 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }
 
-p, a, ul, ol, li { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+p, a { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+
+ul, ol, li {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	/* list-style-image: url("../image_files/list-bulletA2.png");*/
+	list-style-position: inside;
+}
 
 blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
 
@@ -104,6 +115,8 @@ nav {
 li:hover {
 background-color: white;
 }
+
+
 
 tr:nth-child(3n) {
 background-color: #DCDCDC; /* color = HTML Gainsboro */
