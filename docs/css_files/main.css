@@ -111,8 +111,8 @@ although I did change border-radius below to 50px from 25px, and max-width from 
 
 img {
 	border-radius: 50px;
-	max-width: 30%;
-	height: auto;
+	max-width: 50vh;
+	height: 50vh;
 }
 /*above are the css changes I made for Promineo Tech Week 7 Coding Assignment, 09/15/2022
  *
