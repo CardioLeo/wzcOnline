@@ -9,18 +9,20 @@
 
 lang: mango,Duo,lingvist,audio,extra(highest time used first)
 
-German
-Japanese
+# German
+# Japanese
 Spanish
 # 	(add note clarifying that I can intereact halfway decently with native spanish speakers)
-French
-Welsh
+# French
+# Welsh
 Chinese
 
 -----
 
 Main structure of individual languages:
 
+dashes
+br
 h2 langName
 br
 br
@@ -36,9 +38,40 @@ h4 Secondary Resources
 br
 details
 summary Open
-br
 	ul # whatever needs listed secondarily
+details
 br
+
+                <br>
+                <p>---</p>
+                <br>
+		<h2>langname</h2>
+		<br>
+		<br>
+		<h4>Main Experience</h4>
+		<br>
+		<details>
+			<summary>Open</summary>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</details>
+		<br>
+		<h4>Secondary Resources</h4>
+		<br>
+		<details>
+			<summary>Open</summary>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</details>
+		</details>
+		<br>
+
 -----
 
 
@@ -49,11 +82,11 @@ Mango Languages
 Total time:
 
 
-French: 8h51m
+#	French: 8h51m
 # 	Japanese: 40h38m
 Mandarin: 14h23m
 Nigerian Igbo: 4h8m
-German: 37h52m
+# German: 37h52m
 Biblical Hebrew: 43h35m
 Koine Greek: 4h29m
 Latin: 4h23m
@@ -66,10 +99,10 @@ Duolingo Scores
 
 Total XP: 186801 XP
 
-German: 60388 XP
+# 	 German: 60388 XP
 #	 Japanese: 58525 XP
-Welsh: 21662 XP
-French: 11154 XP
+# 	 Welsh: 21662 XP
+# 	 French: 11154 XP
 Arabic: 9858 XP
 Latin: 6713 XP
 Swedish: 5332 XP
@@ -96,19 +129,19 @@ Behind the Wheel Japanese: 2 days 5 hours, 59 minutes (or 54 hours)
 
 Lingvist
 
-German: 
+# German: 
 	Total Time Spent:
 	129 hrs 37 mins
 	80% words of any text (3396 words)
-English (from German):
+# English (from German):
         Total Time Spent:
 	59 mins
         66% words of any text (990 words)
-French:
+# French:
 	Total Time Spent:
 	15 hrs 3 mins	
 	70% words of any text (774 words)
-French (from German):
+# French (from German):
         Total Time Spent:
         17 mins
         18% words of any text (66 words)
