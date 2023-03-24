@@ -15,7 +15,7 @@ lang: mango,Duo,lingvist,audio,extra(highest time used first)
 # 	(add note clarifying that I can intereact halfway decently with native spanish speakers)
 # French
 # Welsh
-Chinese
+# Chinese
 # Hebrew
 
 -----
@@ -87,12 +87,12 @@ Total time:
 
 #	French: 8h51m
 # 	Japanese: 40h38m
-# Mandarin: 14h23m
-Nigerian Igbo: 4h8m
-# German: 37h52m
-# Biblical Hebrew: 43h35m
-Koine Greek: 4h29m
-Latin: 4h23m
+#	 Mandarin: 14h23m
+# 	German: 37h52m
+# 	Biblical Hebrew: 43h35m
+# 	Nigerian Igbo: 4h8m
+# 	Koine Greek: 4h29m
+# 	Latin: 4h23m
 
 as of 03/23/2023
 
@@ -106,12 +106,12 @@ Total XP: 186801 XP
 #	 Japanese: 58525 XP
 # 	 Welsh: 21662 XP
 # 	 French: 11154 XP
-Arabic: 9858 XP
-Latin: 6713 XP
-Swedish: 5332 XP
+# 	Arabic: 9858 XP
+# 	Latin: 6713 XP
+# 	Swedish: 5332 XP
 #	 Spanish: 4523 XP
-Hindi: 2880 XP
-# Mandarin Chinese: 1610 XP
+# 	Hindi: 2880 XP
+# 	Mandarin Chinese: 1610 XP
 
 -----
 
@@ -164,7 +164,7 @@ Lingvist
         Total Time Spent:
 	[Not yet started]
         [?]% words of any text ([?] words)
-Estonian:
+# Estonian:
         Total Time Spent:
         17 mins
         22 words
