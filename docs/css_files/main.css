@@ -1,30 +1,74 @@
 /* Author: William Z Chadwick
  * Date Created: 09/15/2022
- * Date Modified: 11/08/2022
+ * Date Modified: 03/09/2023
  * Description: "A place for the cascading style sheets (css) for my wzcOnline website index page."
  * */
 
+/* overall style for page element */
+
+:root {
+  background: #1a1a1a;
+  color: white;
+  position: relative;
+  left: 12%;
+}
+
+
 /* font changes */
 
-h1 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 50px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 54px; }
+h1, h2, h4, p, a, ul, ol, li, pre, blockquote, #header2a {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
 
-h2 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 550;}
+.menu a {
+  text-decoration: none;
+  line-height: 3vh;
+  font-size: 50px;
+}
 
-#menu { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 45px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 50px;}
+a:active {
+  color: #ff2b2b;
+}
 
-#header2a { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; }
+a:visited {
+  color: #db5704;
+}
 
-/* header2a, menu, and h1 all modified as of 11/08/2022 */
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 3vh; 
+  right: 5vh;
+}
 
-h4 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }
+h2 {
+  font-size: 18px;
+  font-weight: 550;
+}
 
-p, a { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+#header2a {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+/* header2a, menu, and h1 all modified as of 11/08/2022; menu taken and put below as of 03/23 */
+
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+p, a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
 
 ul, ol, li {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
 	font-weight: 400;
 	line-height: 16px;
 	/* list-style-image: url("../image_files/list-bulletA2.png"); */
@@ -36,9 +80,18 @@ li {
         list-style-position: inside;
 }
 
-blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
+blockquote {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+}
 
-pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+pre {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
 
 /*above are the first css changes I ever made to a personal website
  *
@@ -79,12 +132,26 @@ nope, going to leave it commented out for now; maybe another time
 although I did change border-radius below to 50px from 25px, and max-width from 25% to 30%, after some experimenting.
  */
 
-
 img {
-	border-radius: 50px;
-	max-width: 30%;
-	height: auto;
+  border-radius: 50px;
+  height: 50vh;
 }
+
+/*
+img #landscape {
+  min-height: 33%;
+  max-height: 55%;
+}
+
+img #portrait {
+  width: 40vh;
+
+min-width: 45%;
+/  max-width: 55%;
+}
+ */
+
+
 /*above are the css changes I made for Promineo Tech Week 7 Coding Assignment, 09/15/2022
  *
  *
@@ -97,26 +164,85 @@ img {
  * color: transparent;
  * background-clip: text;
  * -webkit-background-clip: text;
+ * {
+ *       position: relative;
+ *       left: 80px;
+ *       top: 10px;
+ *  }
  *
- * * {
-        position: relative;
-        left: 80px;
-        top: 10px;
-}
- *
- *below are the css changes I made for Promineo Tech Week 8 Coding Assignment, 10/15/2022 */
+ * below are the css changes I made for Promineo Tech Week 8 Coding Assignment, 10/15/2022
+ */
 
-:root {
-	background: white;
+/* #x {
+height: 20vh;
+width: 20vh;
+}
+responsive shape!!
+
+make navbar/menu:
+{
+position: fixed; so it follows scrolling
 }
 
-nav {
-	padding: 15px;
-	width: 200px;
-	border: 1px dashed;
-	border-radius: 15px;
-	cursor: pointer;
-	margin: 10px 10px 10px 10px;
+[all text?] {
+letter-spacing: 0.1em
+}
+
+/ debugging trick { background-color: rgba(0,255,0,0.1); }
+
+#image { line-height: 1.5em; list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png); } 
+
+map() vs forloop
+
+button {
+  cursor: pointer
+}
+
+.flex-container {
+flex-wrap: wrap-reverse;
+}
+
+array, so there will have to be a devision algorithm; getTotalSizeofIndices() --> divideBy2() --> run numCheck() --> if first numChecked = 6, return found. if first numChecked < 6, run division algorithm again for every indice > numCheckednum (which should be saved in a variable so as not to forget), but starting between previous target and ladt indice.
+
+reverse last step if numChecked > target . repest
+
+.fixed-nav-bar {
+position: fixed;
+top: 0;
+left: 0;
+z-index: 100;
+height: 100%;
+width: 50px;
+background-color: 00a087;
+}
+
+enki screenshot sent to Stormi responsive design */
+
+li, .menu {
+  font-size: 25x;
+  font-height: 40px;
+  font-weight: 600;
+}
+
+nav, .menu {
+  position: fixed;
+  top: 12%;
+  right: 12%;
+  z-index: 100;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 50px;
+  background-color: transparent(75%, white, black);
+  /* background-image: radial-gradient(circle, #b0b0b0, sepia); */
+  padding: 15px;
+  width: 200px;
+  border: 1px dashed;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
 }
 
 #frink {
@@ -124,17 +250,36 @@ nav {
 }
 
 li:hover {
-background-color: white;
+  background-color: maroon;
 }
 
 
 
 tr:nth-child(3n) {
-background-color: #DCDCDC; /* color = HTML Gainsboro */
+  background-color: #DCDCDC; /* color = HTML Gainsboro */
+  color: black;
+}
+
+table {
+  padding: 4vh 2vw;
+}
+
+th, td {
+  padding: 1vh 1vw;
 }
 
 button, table, th, td, form, label, summary, details, header {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  font-color: white;
+}
+
+button, a {
+	cursor: pointer;
 }
 
 progress {
