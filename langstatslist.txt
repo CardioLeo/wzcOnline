@@ -11,17 +11,19 @@ lang: mango,Duo,lingvist,audio,extra(highest time used first)
 
 # German
 # Japanese
-Spanish
+# Spanish
 # 	(add note clarifying that I can intereact halfway decently with native spanish speakers)
 # French
 # Welsh
 Chinese
+# Hebrew
 
 -----
 
 Main structure of individual languages:
 
 dashes
+br
 br
 h2 langName
 br
@@ -45,6 +47,7 @@ br
                 <br>
                 <p>---</p>
                 <br>
+		<br>
 		<h2>langname</h2>
 		<br>
 		<br>
@@ -84,10 +87,10 @@ Total time:
 
 #	French: 8h51m
 # 	Japanese: 40h38m
-Mandarin: 14h23m
+# Mandarin: 14h23m
 Nigerian Igbo: 4h8m
 # German: 37h52m
-Biblical Hebrew: 43h35m
+# Biblical Hebrew: 43h35m
 Koine Greek: 4h29m
 Latin: 4h23m
 
@@ -106,16 +109,16 @@ Total XP: 186801 XP
 Arabic: 9858 XP
 Latin: 6713 XP
 Swedish: 5332 XP
-Spanish: 4523 XP
+#	 Spanish: 4523 XP
 Hindi: 2880 XP
-Chinese: 1610 XP
+# Mandarin Chinese: 1610 XP
 
 -----
 
 Libby Audiobooks
 
-Easy Mandarin Chinese Course for Beginners: 2h55m
-In-Flight Mandarin Chinese: 3h1m
+# Easy Mandarin Chinese Course for Beginners: 2h55m
+# In-Flight Mandarin Chinese: 3h1m
 # 	TravelTalk Japanese: 10h20m
 Behind the Wheel Japanese: 2 days 5 hours, 59 minutes (or 54 hours)
 # 	#Dr. Blair's Japanese In No Time: No Progress
@@ -145,11 +148,11 @@ Lingvist
         Total Time Spent:
         17 mins
         18% words of any text (66 words)
-Spanish:
+# Spanish:
         Total Time Spent:
 	5 hrs 45 mins
         23% words of any text (230 words)
-Spanish (from German):
+# Spanish (from German):
         Total Time Spent:
 	15 min
         13% words of any text (33 words)
