@@ -1,0 +1,39 @@
+#
+#
+#
+#
+#
+
+---
+
+- add note describing why I use the details blocks the way I do
+- add contact me section!! //
+- - add contact section at end of index //
+- - and at 2nd-to-top of menu //
+- h1 element css Kerning //
+- make menu background opaqueish white // (not opaque yet)
+- bootstrap more? haha..
+- move menu significantly closer to upper right; //
+- what else? 
+
+put up leftovers //
+
+- - - applications
+- - - - 
+- - - - 
+- - - - 
+
+Log of changes made to main CSS file for wzconline website on March 30th, 2023:
+
+- -Line height fixed in li, .menu, where it had been font-height, a property which doesn't even exist and hence had been ineffective.
+- - Menu id displays properly now, as #menu, not .menu.
+- - Changed margins of nav/menu.
+- - Made root position left 15%, top 10%, as opposed to both 12%.
+- - Moved nav up to 0.1 right and 0.1 top, as on mobile the menu is far too obtrusive; this will have to be revisited, as well as the whole nav/menu design.
+- - Commented out the a-visited attribute selector, and the pre html tag selector.
+- - Changed the colors on links, a tags, to be shades of red so they don't look nearly as illegible as they have.
+- - Tried to experiment with font-kerning property, which so far as I know it doesn't change much, and so I changed the letter-spacing property, specifically in the h1 element; generally in graphic design and typography, kerning is not merely a ternary property but something that may be interacted with on such intimate detail as to be near-existential.
+- - Also increased line height in some crucial cases, h1 and h2.
+- - Deleted a number of unnecessary lines of every kind.
+- - Changed a lot, but not all, of the white color items to the css hash value DCDCDC, a similar gray which, I think, looks better.
+- - Given there was already a tr-nth-child-3n selector, I discovered a syntax error which, when fixed, revealed that text in 2n table rows would become illegible; so I fixed the selector and added a correct 2n selector. For now I am assuming it doesn't create conflicts for me later, because I haven't tested it with more than three rows/columns.
