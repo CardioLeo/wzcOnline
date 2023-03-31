@@ -1,0 +1,22 @@
+#
+#
+#
+#
+#
+
+---
+
+- add note describing why I use the details blocks the way I do
+- add contact me section!!
+- - add contact section at end of index and at 2nd-to-top of menu
+- h1 element css Kerning
+- bootstrap more? haha..
+- move menu significantly closer to upper right;
+- what else? 
+
+put up leftovers //
+
+- - - applications
+- - - - 
+- - - - 
+- - - - 
