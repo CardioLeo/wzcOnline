@@ -31,24 +31,6 @@ a:active {
   color: #ff9999;
 }
 
-h2, a, li, #menu {
-  font-size: 18px;
-  font-weight: 550;
-  line-height: 25px;
-  letter-spacing: 1.2px;
-
-}
-
-a, #menu {
-  text-decoration: none;
-}
-
-/*
-a:visited {
-  color: #db5704;
-}
-*/
-
 h1 {
   font-kerning: normal;
   letter-spacing: 3px;
@@ -133,10 +115,6 @@ pre {
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
-  background-color: #ccc;
-}
-
 .content {
   padding: 0 18px;
   display: none;
@@ -185,12 +163,12 @@ img.portrait {
  * color: transparent;
  * background-clip: text;
  * -webkit-background-clip: text;
- * {
+ * 
  *       position: relative;
  *       left: 80px;
  *       top: 10px;
  *  
- *  }
+ * 
  *
 */
 
@@ -216,7 +194,7 @@ map() vs forloop
 
 .flex-container {
 flex-wrap: wrap-reverse;
-}
+}*/
 
 /*
 array, so there will have to be a devision algorithm; getTotalSizeofIndices() --> divideBy2() --> run numCheck() --> if first numChecked = 6, return found. if first numChecked < 6, run division algorithm again for every indice > numCheckednum (which should be saved in a variable so as not to forget), but starting between previous target and ladt indice.
@@ -234,18 +212,56 @@ background-color: 00a087;
 
 /* enki screenshot sent to Stormi responsive design */
 
-li, .menu {
-  font-size: 14px;
-  line-height: 40px;
-  font-weight: 600;
+/* --- Begin Nav & Menu CSS Here ---*/
+
+h2, a, li > nav, #menu {
+  font-size: 18px;
+  font-weight: 550;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+
 }
 
-a, summary, li .menu {
+a > nav, #menu {
+  text-decoration: none;
+}
+
+/*
+a:visited {
+  color: #db5704;
+}
+*/
+
+a, summary, li > nav, #menu {
   font-size: 2.5vh;
-  font-weight: 700
+  font-weight: 700;
+  line-height: 20px;
+  width: 7%;
+  min-width: 5%;
+  max-width: 20%;
+  min-height: 0.8%;
+  max-height: 10%;
+  padding: 1px;
+  margin: 0.5px 0;
+  border-radius: 2px;
+  box-sizing: border-box;
 }
 
-nav {
+li:hover > nav, #menu{
+  background-color: maroon;
+  margin: 0.5px 0;
+  padding: 0.5vh 0;
+
+}
+
+
+/*
+ * display: inline-block;
+ * 
+ * padding: 1vh 1vw;
+ */
+
+nav, #menu {
   position: fixed;
   top: 0.1%;
   right: 0.1%;
@@ -275,13 +291,8 @@ nav {
    * transparent(25%, white, black);
   /* background-image: radial-gradient(circle, #b0b0b0, sepia); */
 
-#frink {
-	background-color: red;
-}
-
 li:hover {
   background-color: maroon;
-
 }
 
 tr:nth-child(3n) {
@@ -298,9 +309,13 @@ table {
   padding: 4vh 2vw;
 }
 
-th, td, li:hover {
+th, td, {
   padding: 1vh 1vw;
 }
+/*
+ * Just removed li:hover from the th, td selector
+ * testing...
+ */
 
 button, table, th, td, form, label, summary, details, header {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
