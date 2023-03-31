@@ -4,6 +4,10 @@
  * Description: "A place for the cascading style sheets (css) for my wzcOnline website index page."
  * */
 
+   /* --- Begin Text, Img, Root CSS Here --- */
+   /* --- last accessed: 04/01/2023 --- */
+
+
 /* overall style for page element */
 
 :root {
@@ -13,7 +17,6 @@
   left: 15%;
   top: 10%;
 }
-
 
 /* font changes */
 
@@ -84,6 +87,11 @@ blockquote {
 }
 
 
+
+
+/* --- End Text, Img, Root CSS Here --- */
+
+
 /*
  * I am commenting out the pre selector because I don't think
  * I have a pre html tag on any of my web pages, but perhaps
@@ -149,6 +157,8 @@ img.portrait {
   max-width: 55%;
 }
 
+   /* --- Begin CSS Notes Here ---*/
+   /* --- last accessed: 04/01/2023 ---*/
 
 
 /*above are the css changes I made for Promineo Tech Week 7 Coding Assignment, 09/15/2022
@@ -177,6 +187,7 @@ img.portrait {
  */
 
 /* #x {
+ *
 height: 20vh;
 width: 20vh;
 }
@@ -212,7 +223,11 @@ background-color: 00a087;
 
 /* enki screenshot sent to Stormi responsive design */
 
-/* --- Begin Nav & Menu CSS Here ---*/
+   /* --- End CSS Here --- */
+
+
+/* --- Begin Nav & Menu CSS Here --- */
+/* --- last accessed: 04/01/2023 --- */
 
 h2, a, li > nav, #menu {
   font-size: 18px;
@@ -251,7 +266,6 @@ li:hover > nav, #menu{
   background-color: maroon;
   margin: 0.5px 0;
   padding: 0.5vh 0;
-
 }
 
 
@@ -290,6 +304,14 @@ nav, #menu {
   /* two old values from the nav selector
    * transparent(25%, white, black);
   /* background-image: radial-gradient(circle, #b0b0b0, sepia); */
+
+
+/* --- End Nav & Menu CSS Here --- */
+
+
+
+   /* --- Begin Tables & Inputs CSS Here --- */
+   /* --- last accessed: 04/01/2023 --- */
 
 li:hover {
   background-color: maroon;
@@ -362,4 +384,4 @@ input[type=submit]:hover {
 /* 
  * I need to add button attributes and details/summary/collapsible attributes to the nav section
  */
-
+/* --- End Tables & Inputs CSS Here --- */
