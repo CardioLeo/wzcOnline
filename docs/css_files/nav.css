@@ -9,3 +9,81 @@
  *
  *
  * */
+
+/* --- Begin Nav & Menu CSS Here ---*/
+
+h2, a, li > nav, #menu {
+  font-size: 18px;
+  font-weight: 550;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+
+}
+
+a > nav, #menu {
+  text-decoration: none;
+}
+
+/*
+a:visited {
+  color: #db5704;
+}
+*/
+
+a, summary, li > nav, #menu {
+  font-size: 2.5vh;
+  font-weight: 700;
+  line-height: 20px;
+  width: 7%;
+  min-width: 5%;
+  max-width: 20%;
+  min-height: 0.8%;
+  max-height: 10%;
+  padding: 1px;
+  margin: 0.5px 0;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+li:hover > nav, #menu{
+  background-color: maroon;
+  margin: 0.5px 0;
+  padding: 0.5vh 0;
+}
+
+
+/*
+ * display: inline-block;
+ *
+ * padding: 1vh 1vw;
+ */
+
+nav, #menu {
+  position: fixed;
+  top: 0.1%;
+  right: 0.1%;
+  min-height: 5%;
+  max-height: 95%;
+  min-width: 15%;
+  max-width: 33%;
+  z-index: 100;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 20vh;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 800;
+  line-height: 24vh;
+  color: black;
+  background-color: #DCDCDC;
+  padding: 10px;
+  border: 1.5px dashed;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 16px 16px 16px 16px;
+}
+
+  /*  width: 2vw; was 200px now replaced by min and max height properties above*/
+
+  /* two old values from the nav selector
+   * transparent(25%, white, black);
+  /* background-image: radial-gradient(circle, #b0b0b0, sepia); */
