@@ -1,6 +1,6 @@
 /* Author: William Z Chadwick
  * Date Created: 09/15/2022
- * Date Modified: 03/09/2023
+ * Date Modified: 03/30/2023
  * Description: "A place for the cascading style sheets (css) for my wzcOnline website index page."
  * */
 
@@ -8,9 +8,10 @@
 
 :root {
   background: #1a1a1a;
-  color: white;
+  color: #DCDCDC;
   position: relative;
-  left: 12%;
+  left: 15%;
+  top: 10%;
 }
 
 
@@ -22,30 +23,38 @@ h1, h2, h4, p, a, ul, ol, li, pre, blockquote, #header2a {
   font-variant: normal;
 }
 
-.menu a {
-  text-decoration: none;
-  line-height: 3vh;
-  font-size: 50px;
-}
-
-a:active {
+a {
   color: #ff2b2b;
 }
 
+a:active {
+  color: #ff9999;
+}
+
+a #menu {
+  text-decoration: none;
+}
+
+/*
 a:visited {
   color: #db5704;
 }
+*/
 
 h1 {
+  font-kerning: normal;
+  letter-spacing: 3px;
   font-size: 50px;
   font-weight: 500;
-  line-height: 3vh; 
+  line-height: 52px; 
   right: 5vh;
 }
 
 h2 {
   font-size: 18px;
   font-weight: 550;
+  line-height: 45px;
+  letter-spacing: 1.2px;
 }
 
 #header2a {
@@ -71,8 +80,6 @@ ul, ol, li {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 16px;
-	/* list-style-image: url("../image_files/list-bulletA2.png"); */
-	list-style-position: inside;
 }
 
 li {
@@ -86,15 +93,22 @@ blockquote {
   line-height: 30px;
 }
 
+
+/*
+ * I am commenting out the pre selector because I don't think
+ * I have a pre html tag on any of my web pages, but perhaps
+ * I wanted this for something later on.
 pre {
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 18.5714px;
 }
+*/
 
 /*above are the first css changes I ever made to a personal website
- *
+ * 
+ * - above changed 03/30/2023
  *
  * 
  *below are the changes I made for Promineo Tech Week 7 Coding Assignment*/
@@ -138,16 +152,15 @@ img {
 }
 
 /*
-img #landscape {
+img.landscape {
   min-height: 33%;
   max-height: 55%;
 }
 
-img #portrait {
+img.portrait {
   width: 40vh;
-
-min-width: 45%;
-/  max-width: 55%;
+  min-width: 45%;
+  max-width: 55%;
 }
  */
 
@@ -168,8 +181,12 @@ min-width: 45%;
  *       position: relative;
  *       left: 80px;
  *       top: 10px;
+ *  
  *  }
  *
+*/
+
+/*
  * below are the css changes I made for Promineo Tech Week 8 Coding Assignment, 10/15/2022
  */
 
@@ -178,11 +195,6 @@ height: 20vh;
 width: 20vh;
 }
 responsive shape!!
-
-make navbar/menu:
-{
-position: fixed; so it follows scrolling
-}
 
 [all text?] {
 letter-spacing: 0.1em
@@ -194,40 +206,40 @@ letter-spacing: 0.1em
 
 map() vs forloop
 
-button {
-  cursor: pointer
-}
-
 .flex-container {
 flex-wrap: wrap-reverse;
 }
 
+/*
 array, so there will have to be a devision algorithm; getTotalSizeofIndices() --> divideBy2() --> run numCheck() --> if first numChecked = 6, return found. if first numChecked < 6, run division algorithm again for every indice > numCheckednum (which should be saved in a variable so as not to forget), but starting between previous target and ladt indice.
 
 reverse last step if numChecked > target . repest
+*/
 
 .fixed-nav-bar {
-position: fixed;
 top: 0;
 left: 0;
-z-index: 100;
 height: 100%;
 width: 50px;
 background-color: 00a087;
 }
 
-enki screenshot sent to Stormi responsive design */
+/* enki screenshot sent to Stormi responsive design */
 
 li, .menu {
-  font-size: 25x;
-  font-height: 40px;
+  font-size: 14px;
+  line-height: 40px;
   font-weight: 600;
+}
+
+a, summary, li .menu {
+  font-size: 20px;
 }
 
 nav, .menu {
   position: fixed;
-  top: 12%;
-  right: 12%;
+  top: 0.1%;
+  right: 0.1%;
   z-index: 100;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 45px;
@@ -235,15 +247,19 @@ nav, .menu {
   font-variant: normal;
   font-weight: 400;
   line-height: 50px;
-  background-color: transparent(75%, white, black);
-  /* background-image: radial-gradient(circle, #b0b0b0, sepia); */
+  color: black;
+  background-color: #DCDCDC;
   padding: 15px;
   width: 200px;
-  border: 1px dashed;
+  border: 1.5px dashed;
   border-radius: 15px;
   cursor: pointer;
-  margin: 10px 10px 10px 10px;
+  margin: 16px 16px 16px 16px;
 }
+
+  /* two old values from the nav selector
+   * transparent(25%, white, black);
+  /* background-image: radial-gradient(circle, #b0b0b0, sepia); */
 
 #frink {
 	background-color: red;
@@ -253,11 +269,14 @@ li:hover {
   background-color: maroon;
 }
 
-
-
 tr:nth-child(3n) {
   background-color: #DCDCDC; /* color = HTML Gainsboro */
   color: black;
+}
+
+tr:nth-child(2n) {
+  background-color: black;
+  color: #DCDCDC;
 }
 
 table {
@@ -275,7 +294,6 @@ button, table, th, td, form, label, summary, details, header {
   font-variant: normal;
   font-weight: 400;
   line-height: 20px;
-  font-color: white;
 }
 
 button, a {
