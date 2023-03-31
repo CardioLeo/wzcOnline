@@ -120,7 +120,7 @@ h2, a, li > nav, #menu {
 
 }
 
-a > nav, #menu {
+a, li > nav, #menu {
   text-decoration: none;
 }
 
@@ -210,6 +210,11 @@ tr:nth-child(2n) {
   color: #DCDCDC;
 }
 
+/*
+ * I haven't yet tested whether these two tr:nth-child selectors
+ * will work as intended for table rows greater in number than 3
+ */
+
 table {
   padding: 4vh 2vw;
 }
@@ -217,10 +222,6 @@ table {
 th, td, {
   padding: 1vh 1vw;
 }
-/*
- * Just removed li:hover from the th, td selector
- * testing...
- */
 
 button, table, th, td, form, label, summary, details, header {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
