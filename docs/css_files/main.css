@@ -87,59 +87,6 @@ blockquote {
 }
 
 
-
-
-/* --- End Text, Img, Root CSS Here --- */
-
-
-/*
- * I am commenting out the pre selector because I don't think
- * I have a pre html tag on any of my web pages, but perhaps
- * I wanted this for something later on.
-pre {
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18.5714px;
-}
-*/
-
-/*above are the first css changes I ever made to a personal website
- * 
- * - above changed 03/30/2023
- *
- * 
- *below are the changes I made for Promineo Tech Week 7 Coding Assignment*/
-
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-
-/*
-img {
-	border-radius: 50px;
-	max-height: 25%;
-	width: auto;
-}
-nope, going to leave it commented out for now; maybe another time
-although I did change border-radius below to 50px from 25px, and max-width from 25% to 30%, after some experimenting.
- */
-
 img {
   border-radius: 50px;
   height: 50vh;
@@ -157,73 +104,9 @@ img.portrait {
   max-width: 55%;
 }
 
-   /* --- Begin CSS Notes Here ---*/
-   /* --- last accessed: 04/01/2023 ---*/
+/* --- End Text, Img, Root CSS Here --- */
 
 
-/*above are the css changes I made for Promineo Tech Week 7 Coding Assignment, 09/15/2022
- *
- *
- * 
- * sepia example: background-color: #fcf5ee;
- * conic-gradient();
- * font-size: 70px;
- * font-weight: 600;
- * background-image: linear-gradient(to left, #553c9a, #b393d3);
- * color: transparent;
- * background-clip: text;
- * -webkit-background-clip: text;
- * 
- *       position: relative;
- *       left: 80px;
- *       top: 10px;
- *  
- * 
- *
-*/
-
-/*
- * below are the css changes I made for Promineo Tech Week 8 Coding Assignment, 10/15/2022
- */
-
-/* #x {
- *
-height: 20vh;
-width: 20vh;
-}
-responsive shape!!
-
-[all text?] {
-letter-spacing: 0.1em
-}
-
-/ debugging trick { background-color: rgba(0,255,0,0.1); }
-
-#image { line-height: 1.5em; list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png); } 
-
-map() vs forloop
-
-.flex-container {
-flex-wrap: wrap-reverse;
-}*/
-
-/*
-array, so there will have to be a devision algorithm; getTotalSizeofIndices() --> divideBy2() --> run numCheck() --> if first numChecked = 6, return found. if first numChecked < 6, run division algorithm again for every indice > numCheckednum (which should be saved in a variable so as not to forget), but starting between previous target and ladt indice.
-
-reverse last step if numChecked > target . repest
-*/
-
-.fixed-nav-bar {
-top: 0;
-left: 0;
-height: 100%;
-width: 50px;
-background-color: 00a087;
-}
-
-/* enki screenshot sent to Stormi responsive design */
-
-   /* --- End CSS Here --- */
 
 
 /* --- Begin Nav & Menu CSS Here --- */
@@ -385,3 +268,11 @@ input[type=submit]:hover {
  * I need to add button attributes and details/summary/collapsible attributes to the nav section
  */
 /* --- End Tables & Inputs CSS Here --- */
+
+
+/* --- Begin CSS Notes Here --- */
+/* --- last accessed: 04/01/2023 --- */
+
+
+
+/* --- End CSS Notes Here --- */
