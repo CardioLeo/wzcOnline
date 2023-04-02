@@ -12,10 +12,15 @@
 
 :root {
   background: #1a1a1a;
+  position: absolute;
+}
+
+div.root-element {
+  background: #1a1a1a;
   color: #DCDCDC;
   position: relative;
-  left: 15%;
-  top: 10%;
+  left: 20%;
+  top: 15%;
 }
 
 /* font changes */
