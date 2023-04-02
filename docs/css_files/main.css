@@ -100,13 +100,14 @@ img {
 }
 
 
-img, .landscape {
+img.landscape {
   min-height: 33%;
   max-height: 55%;
+  width: 120%;
 }
 
-img, .portrait {
-  width: 40vh;
+img.portrait {
+  height: 40vh;
   min-width: 45%;
   max-width: 55%;
 }
