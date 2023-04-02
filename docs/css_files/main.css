@@ -1,8 +1,9 @@
-/* Author: William Z Chadwick
+/* 
+ * Author: William Z Chadwick
  * Date Created: 09/15/2022
  * Date Modified: 03/30/2023
  * Description: "A place for the cascading style sheets (css) for my wzcOnline website index page."
- * */
+ */
 
    /* --- Begin Text, Img, Root CSS Here --- */
    /* --- last accessed: 04/01/2023 --- */
@@ -21,6 +22,7 @@ div.root-element {
   position: relative;
   left: 20%;
   top: 15%;
+  max-width: 75%;
 }
 
 /* font changes */
@@ -98,12 +100,12 @@ img {
 }
 
 
-img.landscape {
+img, .landscape {
   min-height: 33%;
   max-height: 55%;
 }
 
-img.portrait {
+img, .portrait {
   width: 40vh;
   min-width: 45%;
   max-width: 55%;
