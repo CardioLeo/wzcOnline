@@ -191,6 +191,11 @@ nav, #menu {
   margin: 16px 16px 16px 16px;
 }
 
+h2 > nav, #menu {
+  color: black;
+}
+
+
   /*  width: 2vw; was 200px now replaced by min and max height properties above*/
 
   /* two old values from the nav selector
