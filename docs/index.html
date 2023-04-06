@@ -2,12 +2,13 @@
 <html lang="en-AM">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>About Me</title>
 	<link rel="stylesheet" href="./css_files/main.css" type="text/css"> <!--Cascading Style Sheets Source File-->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-responsive.css">
-	<script src="../js_files/main.js"></script> <!--JavaScript Source File-->
+	<!-- <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css"> -->
+
+	<!-- <script src="../js_files/main.js"></script> JavaScript Source File-->
 </head>
 <body>
 	<div class="root-element">
@@ -20,7 +21,7 @@
   <br>
 	        <header>
                 <div id="#menu">
-                <nav><h2>Menu</h2>
+			<nav><h2 style:"color:black; !important" >Menu</h2> <!-- Currently this is the only inline CSS I am using, but only so long as I don't have time to test as to why this tag is getting turned to the background color -->
                         <details><summary>Open</summary>
 			<br>
                         <li><a href="./index.html">Home</a></li>
