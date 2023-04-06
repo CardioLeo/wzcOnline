@@ -51,13 +51,6 @@ h1 {
   right: 5vh;
 }
 
-h2 {
-  font-size: 18px;
-  font-weight: 550;
-  line-height: 45px;
-  letter-spacing: 1.2px;
-}
-
 #header2a {
   font-size: 28px;
   font-weight: 400;
@@ -191,9 +184,14 @@ nav, #menu {
   margin: 16px 16px 16px 16px;
 }
 
-h2 > nav, #menu {
+h2 > nav :not(div.root-element) {
   color: black;
 }
+/*
+ * For some reason the above h2 selector is being overridden;
+ * I am going to put inline css for just this one element
+ * until I can test more and figure out what is overriding it.
+ */
 
 
   /*  width: 2vw; was 200px now replaced by min and max height properties above*/
