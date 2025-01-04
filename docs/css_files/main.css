@@ -22,7 +22,8 @@ div.root-element {
   position: relative;
   left: 20%;
   top: 15%;
-  max-width: 75%;
+  /*max-width: 75%;*/
+  max-width: 70%;
 }
 
 /* font changes */
@@ -79,11 +80,11 @@ p, a {
 ul, ol, li {
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 16px;
+	line-height: 20px; /* was 16px */
 }
 
 li {
-        list-style-image: url("../image_files/list-bulletA2.png") 0.1vw;
+        /* list-style-image: url("../image_files/list-bulletA2.png") 0.1vw; */
         list-style-position: inside;
 }
 
